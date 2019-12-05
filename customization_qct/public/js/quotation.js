@@ -8,23 +8,7 @@ frappe.ui.form.on('Quotation', {
 	}
 	
 });
-frappe.ui.form.on("Quotation",{
-refresh: function(frm) {
-    frm.add_custom_button(__("Load Attachments"), function(foo) {
 
-    frappe.call({
-        method:"customization_qct.py.attachment.attach_all_docs",
-        args: {
-            document: cur_frm.doc,
-            
-        }, 
-        callback: function(r) { 
-            frm.reload_doc();
-    
-        }
-    });
-    }
-});
 frappe.ui.form.on("Quotation", "business_lines", function(frm, cdt, cdn) {
     
     frappe.call({
