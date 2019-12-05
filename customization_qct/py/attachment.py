@@ -71,7 +71,7 @@ def attach_all_docs(document):
 	
 	for file_url in frappe.db.sql("""select file_url from `tabFile` where attached_to_doctype = %(doctype)s and attached_to_name = %(docname)s""", {'doctype': document2.doctype, 'docname': document2.name}, as_dict=True ):
 		current_attachments.append(file_url.file_url)
-	    print(file_url)
+	
 	# add the directly linked drawings
 	items = []
 	for item in document["items"]:
