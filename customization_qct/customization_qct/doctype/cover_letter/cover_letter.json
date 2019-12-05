@@ -1,0 +1,48 @@
+{
+ "autoname": "field:title",
+ "creation": "2019-12-03 23:59:33.504898",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "title",
+  "cover_letter"
+ ],
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title",
+   "unique": 1
+  },
+  {
+   "fieldname": "cover_letter",
+   "fieldtype": "Text Editor",
+   "label": "Cover Letter"
+  }
+ ],
+ "modified": "2019-12-04 00:42:14.288064",
+ "modified_by": "Administrator",
+ "module": "customization_qct",
+ "name": "Cover Letter",
+ "name_case": "UPPER CASE",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

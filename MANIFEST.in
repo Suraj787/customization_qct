@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include customization_qct *.css
+recursive-include customization_qct *.csv
+recursive-include customization_qct *.html
+recursive-include customization_qct *.ico
+recursive-include customization_qct *.js
+recursive-include customization_qct *.json
+recursive-include customization_qct *.md
+recursive-include customization_qct *.png
+recursive-include customization_qct *.py
+recursive-include customization_qct *.svg
+recursive-include customization_qct *.txt
+recursive-exclude customization_qct *.pyc

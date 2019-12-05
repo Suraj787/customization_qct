@@ -1,0 +1,38 @@
+{
+ "creation": "2019-11-22 17:58:56.487357",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "fields",
+  "default_attribute"
+ ],
+ "fields": [
+  {
+   "fieldname": "default_attribute",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Default Attribute",
+   "options": "\nCustomer Scope\nIncluded in Quotation/Supplier Scope\nexecuted by supplier",
+   "reqd": 1
+  },
+  {
+   "fieldname": "fields",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Fields",
+   "options": "Field of Scope"
+  }
+ ],
+ "istable": 1,
+ "modified": "2019-12-05 01:50:21.214685",
+ "modified_by": "Administrator",
+ "module": "customization_qct",
+ "name": "Scope of work Fields",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

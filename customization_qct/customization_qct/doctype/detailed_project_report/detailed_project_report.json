@@ -1,0 +1,141 @@
+{
+ "creation": "2019-10-18 19:17:52.405433",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "product",
+  "poposed_size",
+  "generation_zone",
+  "optimum_tilt_angle",
+  "electricity_bill_inputs_section",
+  "bill_soft_copy",
+  "bill_soft_copy_2",
+  "consumer_number",
+  "billing_unit",
+  "sanctioned_load",
+  "dtc_number",
+  "dtc_total_capacity",
+  "fixed_charges",
+  "comments_on_electric_bill",
+  "monthly_bills",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "product",
+   "fieldtype": "Link",
+   "label": "Product",
+   "options": "Item"
+  },
+  {
+   "description": "KWp",
+   "fieldname": "poposed_size",
+   "fieldtype": "Data",
+   "label": "Poposed Size"
+  },
+  {
+   "fieldname": "generation_zone",
+   "fieldtype": "Link",
+   "label": "Generation Zone",
+   "options": "Zones"
+  },
+  {
+   "fieldname": "optimum_tilt_angle",
+   "fieldtype": "Data",
+   "label": "Optimum Tilt Angle"
+  },
+  {
+   "fieldname": "electricity_bill_inputs_section",
+   "fieldtype": "Section Break",
+   "label": "Electricity Bill inputs "
+  },
+  {
+   "description": "Front side",
+   "fieldname": "bill_soft_copy",
+   "fieldtype": "Attach",
+   "label": "Bill soft copy"
+  },
+  {
+   "description": "Back Side",
+   "fieldname": "bill_soft_copy_2",
+   "fieldtype": "Attach",
+   "label": "Bill soft copy "
+  },
+  {
+   "fieldname": "consumer_number",
+   "fieldtype": "Data",
+   "label": "Consumer number"
+  },
+  {
+   "fieldname": "billing_unit",
+   "fieldtype": "Data",
+   "label": "Billing Unit"
+  },
+  {
+   "fieldname": "sanctioned_load",
+   "fieldtype": "Data",
+   "label": "Sanctioned Load"
+  },
+  {
+   "fieldname": "dtc_number",
+   "fieldtype": "Data",
+   "label": "DTC Number"
+  },
+  {
+   "fieldname": "dtc_total_capacity",
+   "fieldtype": "Data",
+   "label": "DTC Total Capacity "
+  },
+  {
+   "fieldname": "fixed_charges",
+   "fieldtype": "Data",
+   "label": "Fixed Charges"
+  },
+  {
+   "fieldname": "comments_on_electric_bill",
+   "fieldtype": "Small Text",
+   "label": "Comments on Electric Bill"
+  },
+  {
+   "fieldname": "monthly_bills",
+   "fieldtype": "Table",
+   "label": "monthly bills",
+   "options": "Monthly Bills"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Detailed Project Report",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "is_submittable": 1,
+ "modified": "2019-12-03 23:42:55.072857",
+ "modified_by": "Administrator",
+ "module": "customization_qct",
+ "name": "Detailed Project Report",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1,
+ "track_seen": 1
+}
