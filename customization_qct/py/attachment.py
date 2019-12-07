@@ -26,6 +26,7 @@ def attach_all_docs(document, method=None):
 			#frappe.msgprint(item_doc)
 			# Check to see if the quantity is = 1
 			item = frappe.get_doc("Item",item_doc["item_code"])
+			print(item)
 			attachments = []
 			# Get the path for the attachments
 			if item.drawing_attachment:
